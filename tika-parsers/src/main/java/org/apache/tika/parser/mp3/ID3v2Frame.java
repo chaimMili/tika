@@ -32,7 +32,7 @@ import static java.nio.charset.StandardCharsets.ISO_8859_1;
  */
 public class ID3v2Frame implements MP3Frame {
 
-    private static final int MAX_RECORD_SIZE = 1_000_000_000;
+    private static final int MAX_RECORD_SIZE = 100_000_000;
     private int majorVersion;
     private int minorVersion;
     private int flags;
